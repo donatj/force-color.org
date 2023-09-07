@@ -1,0 +1,55 @@
+body {
+	font-family: sans-serif;
+	font-size: 11pt;
+
+	> main {
+		max-width: 800px;
+		margin: 3em auto;
+	}
+}
+
+h1 {
+	text-shadow: 
+		2px 2px #ef3550,
+		4px 4px #f48fb1,
+		6px 6px #7e57c2,
+		8px 8px #2196f3,
+		10px 10px #26c6da,
+		12px 12px #43a047,
+		14px 14px #eeff41,
+		16px 16px #f9a825,
+		18px 18px #ff5722;
+}
+
+h2 {
+	font-size: 13pt;
+	margin-top: 1.5em;
+}
+
+%indented {
+	margin-left: 3em;
+}
+
+blockquote {
+	@extend %indented;
+}
+
+pre.block {
+	@extend %indented;
+}
+
+table {
+	width: 100%;
+
+	* {
+		text-align: left;
+	}
+
+	th {
+		background-color: #ddd;
+	}
+
+	th, td {
+		padding: 0.25em;
+	}
+}

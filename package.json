@@ -1,0 +1,10 @@
+{
+  "name": "force-color.org",
+  "scripts": {
+    "build": "npx sass style.scss:public/style.css"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}
