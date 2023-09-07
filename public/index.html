@@ -1,6 +1,126 @@
 <!doctype html>
 <html>
 
-<body>Hello World…</body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FORCE_COLOR: enabling ANSI color despite piping</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<main>
+		<h1>
+			<code>FORCE_COLOR</code>
+		</h1>
+		<p>
+			An increasing number of command-line software programs support the NO_COLOR environment variable. While many
+			developers and users appreciate the plain output this provides, there should likewise be a way to force
+			color to be enabled in cases where it might otherwise become turned off, like piping the output to a
+			non-interactive terminal. The methods to enable colored text output vary across software, and some don't
+			offer an option at all.
+		</p>
+		<p>
+			To address the desire for a consistent method to force enable color support, an informal standard was
+			proposed in 2023:
+		</p>
+		<blockquote>
+			<p>
+				<strong>
+					Command-line software which outputs colored text should check for a FORCE_COLOR environment
+					variable.
+					When this variable is present and not an empty string (regardless of its value), it should force the
+					addition of ANSI color.
+				</strong>
+			</p>
+		</blockquote>
+		<p>
+			By adopting this standard, users who want colored text output, even in situations like piping or CI
+			environments can simply export `FORCE_COLOR=1` to their environment. This will automatically enable color by
+			default in all software that follows the standard.
+		</p>
+		<p>
+			If your software supports NO_COLOR but doesn't offer a direct way to force enabling color, please consider
+			offering the FORCE_COLOR option. If you decide to, please implement this standard to make it easy for your
+			users to enable color and then add your software to this list by submitting a pull request.
+		</p>
+
+		<p>
+			This site is a work in progress and may not be fully complete or accurate. Please feel free to contribute by
+			<a href="https://github.com/donatj/force-color.org">submitting a pull request</a>.
+		</p>
+
+		<h2>Example Implementation</h2>
+
+		<pre class="block">
+			<code>
+#include &lt;stdbool.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+
+int
+main(int argc, char *argv[])
+{
+    char *no_color = getenv("NO_COLOR");
+    char *force_color = getenv("FORCE_COLOR");
+    bool color = true;
+
+    if (no_color != NULL && no_color[0] != '\0')
+        color = false;
+
+    if (force_color != NULL && force_color[0] != '\0')
+        color = true;
+
+    /* do getopt(3) and/or config-file parsing to possibly turn color back on */
+    ...
+}
+
+			</code>
+		</pre>
+
+		<h2>Color libraries supporting FORCE_COLOR to force enable color support</h2>
+
+		<table rules="groups">
+			<thead>
+				<tr>
+					<th>Software</th>
+					<th>Description</th>
+					<th>Date / Version Supported</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="https://github.com/chalk">chalk</a></td>
+					<td>Color library for JavaScript</td>
+					<td><a href="https://github.com/chalk/chalk/releases/tag/v1.0.0">2015-02-23 / 1.0.0</a></td>
+				</tr>
+				<tr>
+					<td><a href="https://www.npmjs.com/package/supports-color">supports-color</a></td>
+					<td>JavaScript library to detect terminal color supports</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h2>Color libraries supporting FORCE_COLOR to force enable color support</h2>
+
+		<table rules="groups">
+			<thead>
+				<tr>
+					<th>Software</th>
+					<th>Description</th>
+					<th>Date / Version Supported</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="https://www.npmjs.com/">npm</a></td>
+					<td>Package manager for JavaScript</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
+</body>
 
 </html>
