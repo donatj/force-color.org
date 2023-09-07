@@ -1,3 +1,4 @@
+public/*.html
 *.css
 *.css.map
 /node_modules

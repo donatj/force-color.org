@@ -34,7 +34,10 @@ blockquote {
 	@extend %indented;
 }
 
-pre.block {
+pre > code {
+	display: block;
+	margin-top: 2em;
+	margin-bottom: 2em;
 	@extend %indented;
 }
 

@@ -1,10 +1,11 @@
 {
   "name": "force-color.org",
   "scripts": {
-    "build": "npx sass style.scss:public/style.css"
+    "build": "npx sass style.scss:public/style.css && cat template/header.html > public/index.html && npx marked --gif -i index.md >> public/index.html && cat template/footer.html >> public/index.html"
   },
   "license": "MIT",
   "devDependencies": {
+    "marked": "^8.0.1",
     "sass": "^1.66.1"
   }
 }
