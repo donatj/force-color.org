@@ -29,10 +29,10 @@ main(int argc, char *argv[])
     if (no_color != NULL && no_color[0] != '\0')
         color = false;
 
+    /* do getopt(3) and/or config-file parsing */
+
     if (force_color != NULL && force_color[0] != '\0')
         color = true;
-
-    /* do getopt(3) and/or config-file parsing to possibly turn color back on */
     ...
 }
 ```
