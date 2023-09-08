@@ -51,14 +51,15 @@ Many software programs already use `--color` or `-c` to enable color output. Thi
 
 ## Color libraries supporting `FORCE_COLOR` to force enable color support
 
-| Software       | Description                                          | Date / Version Supported | 
-|----------------|------------------------------------------------------|--------------------------| 
-| <a href="https://github.com/chalk">chalk</a>          | Color library for JavaScript                         | <a href="https://github.com/chalk/chalk/releases/tag/v1.0.0">2015-02-23 / 1.0.0</a>       | 
-| <a href="https://www.npmjs.com/package/supports-color">supports-color</a> | JavaScript library to detect terminal color supports |                          | 
+| Software | Description | Date / Version Supported |
+|-|-|-|
+| <a href="https://github.com/chalk">chalk</a> | Color library for JavaScript | <a href="https://github.com/chalk/chalk/releases/tag/v1.0.0">2015-02-23 / 1.0.0</a> |
+| <a href="https://www.npmjs.com/package/supports-color">supports-color</a> | JavaScript library to detect terminal color supports | |
 
-## Color libraries supporting `FORCE_COLOR` to force enable color support
+## Color software supporting `FORCE_COLOR` to force enable color support
 
-| Software | Description                    | Date / Version Supported | 
-|----------|--------------------------------|--------------------------| 
-| <a href="https://www.npmjs.com/">npm</a>      | Package manager for JavaScript |                          | 
-| <a href="https://nodejs.org/">node</a>	   | JavaScript runtime             |                          |
+| Software | Description | Date / Version Supported |
+|-|-|-|
+| <a href="https://www.npmjs.com/">npm</a> | Package manager for JavaScript | |
+| <a href="https://nodejs.org/">node</a> | JavaScript runtime | |
+| <a href="https://jestjs.io/">jest</a> | JavaScript testing framework | |
