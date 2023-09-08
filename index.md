@@ -10,7 +10,7 @@ By adopting this standard, users who want colored text output, even in situation
 
 If your software supports `NO_COLOR` but doesn't offer a direct way to force enabling color, please consider offering the `FORCE_COLOR` option. If you decide to, please implement this standard to make it easy for your users to enable color and then add your software to this list by submitting a pull request.
 
-This site is a work in progress and may not be fully complete or accurate. Please feel free to contribute by <a href="https://github.com/donatj/force-color.org">submitting a pull request</a>.
+This site is a work in progress and may not be fully complete or accurate. Please feel free to contribute by [submitting a pull request](https://github.com/donatj/force-color.org).
 
 ## Example Implementation
 
@@ -53,13 +53,13 @@ Many software programs already use `--color` or `-c` to enable color output. Thi
 
 | Software | Description | Date / Version Supported |
 |-|-|-|
-| <a href="https://github.com/chalk">chalk</a> | Color library for JavaScript | <a href="https://github.com/chalk/chalk/releases/tag/v1.0.0">2015-02-23 / 1.0.0</a> |
-| <a href="https://www.npmjs.com/package/supports-color">supports-color</a> | JavaScript library to detect terminal color supports | |
+| [chalk](https://github.com/chalk) | Color library for JavaScript | [2015-02-23 / 1.0.0](https://github.com/chalk/chalk/releases/tag/v1.0.0) |
+| [supports-color](https://www.npmjs.com/package/supports-color) | JavaScript library to detect terminal color supports | |
 
 ## Color software supporting `FORCE_COLOR` to force enable color support
 
 | Software | Description | Date / Version Supported |
 |-|-|-|
-| <a href="https://www.npmjs.com/">npm</a> | Package manager for JavaScript | |
-| <a href="https://nodejs.org/">node</a> | JavaScript runtime | |
-| <a href="https://jestjs.io/">jest</a> | JavaScript testing framework | |
+| [node](https://nodejs.org/node) | JavaScript runtime | |
+| [npm](https://www.npmjs.com/npm) | Package manager for JavaScript | |
+| [jest](https://jestjs.io/jest) | JavaScript testing framework | |
