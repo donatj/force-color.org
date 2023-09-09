@@ -43,7 +43,7 @@ main(int argc, char *argv[])
 
 Some users prefer to have color enabled. Certain actions like piping output through `less`, `grep` or `tee` will disable color output. This can be frustrating for users who want to see color output in these situations.
 
-Other examples include CI environments which may disable color output by default or may be detected as a non-interative terminal causing color to be disabled.
+Other examples include CI environments which may disable color output by default or may be detected as a non-interactive terminal causing color to be disabled.
 
 ### Why not just use `--color` or `-c`?
 
