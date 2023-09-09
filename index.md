@@ -1,5 +1,7 @@
 # `FORCE_COLOR`
 
+### Last Updated: ${DATE}
+
 An increasing number of command-line software programs support the NO_COLOR environment variable. While many developers and users appreciate the plain output this provides, there should likewise be a way to force color to be enabled in cases where it might otherwise become turned off, like piping the output to a non-interactive terminal. The methods to enable colored text output vary across software, and some don't offer an option at all.
 
 To address the desire for a consistent method to force enable color support, an informal standard was proposed in 2023:
