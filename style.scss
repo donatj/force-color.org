@@ -38,6 +38,7 @@ pre > code {
 	display: block;
 	margin-top: 2em;
 	margin-bottom: 2em;
+	white-space: pre-wrap;
 	@extend %indented;
 }
 
