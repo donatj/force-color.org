@@ -1,6 +1,6 @@
 # `FORCE_COLOR`
 
-### Last Updated: ${DATE}
+<time datetime="${DATE}">Last Updated: ${DATE}</time>
 
 An increasing number of command-line software programs support the NO_COLOR environment variable. While many developers and users appreciate the plain output this provides, there should likewise be a way to force color to be enabled in cases where it might otherwise become turned off, like piping the output to a non-interactive terminal. The methods to enable colored text output vary across software, and some don't offer an option at all.
 
