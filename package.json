@@ -1,7 +1,7 @@
 {
   "name": "force-color.org",
   "scripts": {
-    "build": "npx sass style.scss:public/style.css && cat template/header.html > public/index.html && DATE=$(date +%Y-%m-%d) envsubst < index.md | npx marked --gif >> public/index.html && cat template/footer.html >> public/index.html"
+    "build": "make all"
   },
   "license": "MIT",
   "devDependencies": {
