@@ -49,7 +49,7 @@ Other examples include CI environments which may disable color output by default
 
 ### Why not just use `--color` or `-c`?
 
-Many software programs already use `--color` or `-c` to enable color output. This is a great option to have, but it's not always possible to use. For example, if you're piping output to another program, you can't use `--color` or `-c` to enable color output. In these cases, you can use `FORCE_COLOR` to force enable color output.
+Many software programs already use `--color` or `-c` to enable color output. This is a great option to have, but it's not always possible to use. For example, if you're internally piping output to another program, you can't externally use `--color` or `-c` to enable color output. In these cases, you can use `FORCE_COLOR` to force enable color output.
 
 ## Color libraries supporting `FORCE_COLOR` to force enable color support
 
