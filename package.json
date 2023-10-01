@@ -6,6 +6,6 @@
   "license": "MIT",
   "devDependencies": {
     "marked": "^8.0.1",
-    "sass": "^1.66.1"
+    "sass": "^1.68.0"
   }
 }
