@@ -5,7 +5,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "marked": "^9.0.3",
+    "marked": "^9.1.5",
     "sass": "^1.69.5"
   }
 }
