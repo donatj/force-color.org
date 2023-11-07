@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 DATE="$(date +%Y-%m-%d)"
 export DATE
 
