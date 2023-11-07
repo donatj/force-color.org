@@ -1,0 +1,30 @@
+@mixin github_badge($color: #a00, $rotate: 45deg, $class: ".github_badge") {
+	/* * Github Badge * */
+	#{$class} {
+		background-color: $color;
+		overflow: hidden;
+		position: fixed;
+		right: -3em;
+		top: 2.5em;
+		transform: rotate($rotate);
+		box-shadow: 0 0 1em #888;
+		z-index: 100;
+
+		> a {
+			border: 1px solid lighten($color, 50);
+			color: #fff;
+			display: block;
+			font:
+				bold 81.25% "Helvetiva Neue",
+				Helvetica,
+				Arial,
+				sans-serif;
+			margin: 0.05em 0 0.075em 0;
+			padding: 0.5em 3.5em;
+			text-align: center;
+			text-decoration: none;
+			/* shadow */
+			text-shadow: 0 0 0.5em #444;
+		}
+	}
+}

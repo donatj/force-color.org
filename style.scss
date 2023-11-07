@@ -1,3 +1,5 @@
+@import "github_badge";
+
 body {
 	font-family: sans-serif;
 	font-size: 11pt;
@@ -64,3 +66,5 @@ table {
 		padding: 0.25em;
 	}
 }
+
+@include github_badge( $color:#A00, $rotate:45deg );
