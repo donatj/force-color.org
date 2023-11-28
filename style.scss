@@ -64,6 +64,14 @@ table {
 
 	th, td {
 		padding: 0.25em;
+		
+		&:first-of-type {
+			width: 20%;
+		}
+
+		&:last-of-type {
+			width: 30%;
+		}
 	}
 }
 
