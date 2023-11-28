@@ -58,6 +58,7 @@ Many software programs already use `--color` or `-c` to enable color output. Thi
 | [chalk](https://github.com/chalk) | Color library for JavaScript | [2015-02-23 / 1.0.0](https://github.com/chalk/chalk/releases/tag/v1.0.0) |
 | [supports-color](https://www.npmjs.com/package/supports-color) | JavaScript library to detect terminal color supports | |
 | [colorette](https://www.npmjs.com/package/colorette) | JavaScript library to color text | [2018-07-13 / 1.0.0](https://github.com/jorgebucaran/colorette/releases/tag/1.0.0) |
+| [rich](https://github.com/Textualize/rich) | Python library to display rich text | [2022-10-02 / 12.6.0](https://github.com/Textualize/rich/releases/tag/v12.6.0) |
 
 ## Color software supporting `FORCE_COLOR` to force enable color support
 
