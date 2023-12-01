@@ -65,6 +65,7 @@ Many software programs already use `--color` or `-c` to enable color output. Thi
 | Software | Description | Date / Version Supported |
 |-|-|-|
 | [node](https://nodejs.org/node) | JavaScript runtime | |
+| [Nox](https://github.com/wntrblm/nox) | Flexible test automation | [2022-01-07 / 2022.1.7](https://github.com/wntrblm/nox/releases/tag/2022.1.7) |
 | [npm](https://www.npmjs.com/npm) | Package manager for JavaScript | |
 | [jest](https://jestjs.io/jest) | JavaScript testing framework | |
 | [nox](https://nox.thea.codes) | Python automation | [2022-01-07 / 2022.1.7](https://github.com/wntrblm/nox/releases/tag/2022.1.7) |
