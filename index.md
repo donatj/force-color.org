@@ -68,5 +68,4 @@ Many software programs already use `--color` or `-c` to enable color output. Thi
 | [Nox](https://github.com/wntrblm/nox) | Flexible test automation | [2022-01-07 / 2022.1.7](https://github.com/wntrblm/nox/releases/tag/2022.1.7) |
 | [npm](https://www.npmjs.com/npm) | Package manager for JavaScript | |
 | [jest](https://jestjs.io/jest) | JavaScript testing framework | |
-| [nox](https://nox.thea.codes) | Python automation | [2022-01-07 / 2022.1.7](https://github.com/wntrblm/nox/releases/tag/2022.1.7) |
 | [pytest](https://docs.pytest.org) | Python testing framework | [2020-07-28 / 6.0.0](https://github.com/pytest-dev/pytest/releases/tag/6.0.0) |
