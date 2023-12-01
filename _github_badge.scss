@@ -1,5 +1,5 @@
 @mixin github_badge($color: #a00, $rotate: 45deg, $class: ".github_badge") {
-	/* * Github Badge * */
+	/* * GitHub Badge * */
 	#{$class} {
 		background-color: $color;
 		overflow: hidden;

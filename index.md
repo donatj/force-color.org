@@ -59,6 +59,7 @@ Many software programs already use `--color` or `-c` to enable color output. Thi
 | [supports-color](https://www.npmjs.com/package/supports-color) | JavaScript library to detect terminal color supports | |
 | [colorette](https://www.npmjs.com/package/colorette) | JavaScript library to color text | [2018-07-13 / 1.0.0](https://github.com/jorgebucaran/colorette/releases/tag/1.0.0) |
 | [rich](https://github.com/Textualize/rich) | Python library to display rich text | [2022-10-02 / 12.6.0](https://github.com/Textualize/rich/releases/tag/v12.6.0) |
+| [termcolor](https://github.com/termcolor/termcolor) | Python library for ANSI color formatting in the terminal | [2022-10-30 / 2.1.0](https://github.com/termcolor/termcolor/releases/tag/2.1.0) |
 
 ## Color software supporting `FORCE_COLOR` to force enable color support
 
