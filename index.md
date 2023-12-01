@@ -53,20 +53,8 @@ Many software programs already use `--color` or `-c` to enable color output. Thi
 
 ## Color libraries supporting `FORCE_COLOR` to force enable color support
 
-| Software | Description | Date / Version Supported |
-|-|-|-|
-| [chalk](https://github.com/chalk) | Color library for JavaScript | [2015-02-23 / 1.0.0](https://github.com/chalk/chalk/releases/tag/v1.0.0) |
-| [supports-color](https://www.npmjs.com/package/supports-color) | JavaScript library to detect terminal color supports | |
-| [colorette](https://www.npmjs.com/package/colorette) | JavaScript library to color text | [2018-07-13 / 1.0.0](https://github.com/jorgebucaran/colorette/releases/tag/1.0.0) |
-| [rich](https://github.com/Textualize/rich) | Python library to display rich text | [2022-10-02 / 12.6.0](https://github.com/Textualize/rich/releases/tag/v12.6.0) |
-| [termcolor](https://github.com/termcolor/termcolor) | Python library for ANSI color formatting in the terminal | [2022-10-30 / 2.1.0](https://github.com/termcolor/termcolor/releases/tag/2.1.0) |
+${LIBRARIES}
 
 ## Color software supporting `FORCE_COLOR` to force enable color support
 
-| Software | Description | Date / Version Supported |
-|-|-|-|
-| [node](https://nodejs.org/node) | JavaScript runtime | |
-| [Nox](https://github.com/wntrblm/nox) | Flexible test automation for Python | [2022-01-07 / 2022.1.7](https://github.com/wntrblm/nox/releases/tag/2022.1.7) |
-| [npm](https://www.npmjs.com/npm) | Package manager for JavaScript | |
-| [jest](https://jestjs.io/jest) | JavaScript testing framework | |
-| [pytest](https://docs.pytest.org) | Python testing framework | [2020-07-28 / 6.0.0](https://github.com/pytest-dev/pytest/releases/tag/6.0.0) |
+${SOFTWARE}
