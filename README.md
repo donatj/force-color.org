@@ -8,9 +8,9 @@ I created this really quickly because I felt there needed to be a standard.
 
 I would love any and all help the community could offer!
 
-### I just want to add a Library / Software
+### Add a Library / Software
 
-Great! Just edit the coresponding TSV and submit a Pull Request. 
+Just edit the coresponding TSV and submit a Pull Request. 
 
 The tables get generated based on them.
 
