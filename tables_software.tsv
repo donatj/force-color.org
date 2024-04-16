@@ -4,4 +4,4 @@ Software	Description	Date / Version Supported
 [npm](https://www.npmjs.com/npm)	Package manager for JavaScript	
 [jest](https://jestjs.io/jest)	JavaScript testing framework	
 [pytest](https://docs.pytest.org)	Python testing framework	[2020-07-28 / 6.0.0](https://github.com/pytest-dev/pytest/releases/tag/6.0.0)
-[turbo]	Toolchain for frontend development in Rust	[2022-04-07 / v1.2.0](https://github.com/vercel/turbo/releases/tag/v1.2.0)
+[turbo](https://github.com/vercel/turbo)	Toolchain for frontend development in Rust	[2022-04-07 / v1.2.0](https://github.com/vercel/turbo/releases/tag/v1.2.0)
