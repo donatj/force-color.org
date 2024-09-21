@@ -1,7 +1,7 @@
-@PHONY: all
+.PHONY: all
 all: clean public/index.html public/style.css
 
-@PHONY: clean
+.PHONY: clean
 clean:
 	rm -rf public/index.html public/style.css
 
