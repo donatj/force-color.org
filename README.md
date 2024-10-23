@@ -12,7 +12,7 @@ I would love any and all help the community could offer!
 
 Just edit the coresponding TSV and submit a Pull Request. 
 
-The tables get generated based on them.
+The tables on the website are generated based on the TSV files.
 
 - https://github.com/donatj/force-color.org/blob/dev/tables_libraries.tsv
 - https://github.com/donatj/force-color.org/blob/dev/tables_software.tsv
