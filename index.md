@@ -55,6 +55,6 @@ Many software programs already use `--color` or `-c` to enable color output. Thi
 
 ${LIBRARIES}
 
-## Color software supporting `FORCE_COLOR` to force enable color support
+## Software supporting `FORCE_COLOR` to force enable color support
 
 ${SOFTWARE}
