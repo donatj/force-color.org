@@ -1,10 +1,10 @@
 Software	Description	Date / Version Supported
-[jest](https://jestjs.io/jest)	JavaScript testing framework	
 [Deno](https://deno.com/)	JavaScript, TypeScript, and WebAssembly runtime	[2025-03-14 / 2.2.4](https://github.com/denoland/deno/releases/tag/v2.2.4)
 [node](https://nodejs.org/node)	JavaScript runtime	
+[Python](https://www.python.org/)	Python programming language	[2024-10-07 / 3.13](https://docs.python.org/3.13/whatsnew/3.13.html#improved-error-messages)
+[jest](https://jestjs.io/jest)	JavaScript testing framework	
 [Nox](https://github.com/wntrblm/nox)	Flexible test automation for Python	[2022-01-07 / 2022.1.7](https://github.com/wntrblm/nox/releases/tag/2022.1.7)
 [npm](https://www.npmjs.com/npm)	Package manager for JavaScript	
-[Python](https://www.python.org/)	Python programming language	[2024-10-07 / 3.13](https://docs.python.org/3.13/whatsnew/3.13.html#improved-error-messages)
 [pytest](https://docs.pytest.org)	Python testing framework	[2020-07-28 / 6.0.0](https://github.com/pytest-dev/pytest/releases/tag/6.0.0)
 [Sphinx](https://www.sphinx-doc.org/) Documentation generator  [2022-03-28 / 4.5.0](https://www.sphinx-doc.org/en/master/changes/4.5.html)
 [turbo](https://github.com/vercel/turbo)	Toolchain for frontend development in Rust	[2022-04-07 / v1.2.0](https://github.com/vercel/turbo/releases/tag/v1.2.0)
