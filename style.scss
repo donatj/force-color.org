@@ -1,9 +1,20 @@
+@use 'sass:color';
 @import "github_badge";
 
 body {
 	font-family: sans-serif;
 	font-size: 11pt;
-	background: linear-gradient(in hsl longer hue 0deg, #f031 0 0);
+	// background: linear-gradient(in hsl longer hue 0deg, #f031 0 0); Chrome borked it's support for 'longer hue'?
+	background: linear-gradient(
+		0deg, 
+		color.adjust(red, $alpha: -0.9), 
+		color.adjust(orange, $alpha: -0.9),
+		color.adjust(yellow, $alpha: -0.9),
+		color.adjust(green, $alpha: -0.9),
+		color.adjust(blue, $alpha: -0.9),
+		color.adjust(indigo, $alpha: -0.9),
+		color.adjust(violet, $alpha: -0.9),
+	);
 
 	> main {
 		max-width: 800px;
