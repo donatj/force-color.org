@@ -2,17 +2,17 @@
 
 <time datetime="${DATE}">Last Updated: ${DATE}</time>
 
-An increasing number of command-line software programs support the NO_COLOR environment variable. While many developers and users appreciate the plain output this provides, there should likewise be a way to force color to be enabled in cases where it might otherwise become turned off, like piping the output to a non-interactive terminal. The methods to enable colored text output vary across software, and some don't offer an option at all.
+Many command-line programs support the `NO_COLOR` environment variable. While plain output is fine, users also find they need a way to force color on. In particular, cases where color often forces itself off like piping output. Up until now, the methods to force colored text output have varied by program. Many do not even provide such an option.
 
 To address the desire for a consistent method to force enable color support, an informal standard was proposed in 2023:
 
 > **Command-line software which outputs colored text should check for a `FORCE_COLOR` environment variable. When this variable is present and not an empty string (regardless of its value), it should force the addition of ANSI color.**
 
-By adopting this standard, users who want colored text output, even in situations like piping or CI environments can simply export `FORCE_COLOR=1` to their environment. This will automatically enable color by default in all software that follows the standard.
+This standard allows users to enable color in any context. Add `FORCE_COLOR=1` to your environment, and color is enabled in all software supporting the standard.
 
-If your software supports `NO_COLOR` but doesn't offer a direct way to force enabling color, please consider offering the `FORCE_COLOR` option. If you decide to, please implement this standard to make it easy for your users to enable color and then add your software to this list by submitting a pull request.
+If your software supports `NO_COLOR` but cannot force color, consider offering the `FORCE_COLOR` option. If your software already offers a method to force colored output, consider additionally supporting `FORCE_COLOR` . If you do add `FORCE_COLOR` support, please add your software to this list by submitting a pull request.
 
-This site is a work in progress and may not be fully complete or accurate. Please feel free to contribute by [submitting a pull request](https://github.com/donatj/force-color.org).
+Additionally, please feel free to contribute to the standard by [submitting a pull request](https://github.com/donatj/force-color.org).
 
 ## Example Implementation
 
