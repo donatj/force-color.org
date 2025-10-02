@@ -10,7 +10,7 @@ I would love any and all help the community could offer!
 
 ### Add a Library / Software
 
-Just edit the coresponding TSV and submit a Pull Request. 
+Just edit the corresponding TSV and submit a Pull Request. 
 
 The tables on the website are generated based on the TSV files.
 
