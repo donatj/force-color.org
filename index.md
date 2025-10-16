@@ -2,7 +2,7 @@
 
 <time datetime="${DATE}">Last Updated: ${DATE}</time>
 
-Many command-line programs support the `NO_COLOR` environment variable. While plain output is fine, users also find they need a way to force color on. In particular, cases where color often forces itself off like piping output. Up until now, the methods to force colored text output have varied by program. Many do not even provide such an option.
+Many command-line programs support the `NO_COLOR` environmental variable. While plain output is fine, users also find they need a way to force color on. In particular, cases where color often forces itself off like piping output. Up until now, the methods to force colored text output have varied by program. Many do not even provide such an option.
 
 To address the desire for a consistent method to force enable color support, an informal standard was proposed in 2023:
 
