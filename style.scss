@@ -1,5 +1,5 @@
 @use 'sass:color';
-@import "github_badge";
+@use "github_badge";
 
 body {
 	font-family: sans-serif;
@@ -87,4 +87,4 @@ table {
 	}
 }
 
-@include github_badge( $color:#A00, $rotate:45deg );
+@include github_badge.github_badge( $color:#A00, $rotate:45deg );
