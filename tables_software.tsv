@@ -1,6 +1,6 @@
 Software	Description	Date / Version Supported
 [node](https://nodejs.org/node)	JavaScript runtime	
-[Deno](https://deno.com/)	JavaScript, TypeScript, and WebAssembly runtime	[2025-03-14 / 2.2.4](https://github.com/denoland/deno/releases/tag/v2.2.4)
+[Deno](https://deno.com/)	"JavaScript, TypeScript, and WebAssembly runtime"	[2025-03-14 / 2.2.4](https://github.com/denoland/deno/releases/tag/v2.2.4)
 [Python](https://www.python.org/)	Python programming language	[2024-10-07 / 3.13](https://docs.python.org/3.13/whatsnew/3.13.html#improved-error-messages)
 [NVIDIA Legate](https://docs.nvidia.com/legate/)	NVIDIA's scalable array computing framework	[2025-03-17 / 25.03](https://docs.nvidia.com/legate/25.03/changes/2503.html)
 [jest](https://jestjs.io/jest)	JavaScript testing framework	
@@ -11,3 +11,4 @@ Software	Description	Date / Version Supported
 [Sphinx](https://www.sphinx-doc.org/)	Documentation generator	[2022-03-28 / 4.5.0](https://www.sphinx-doc.org/en/master/changes/4.5.html)
 [turbo](https://github.com/vercel/turbo)	Toolchain for frontend development in Rust	[2022-04-07 / v1.2.0](https://github.com/vercel/turbo/releases/tag/v1.2.0)
 [uv](https://docs.astral.sh/uv)	Python package and project manager	[2024-06-06 / 0.2.7](https://github.com/astral-sh/uv/releases/tag/0.2.7)
+[Symfony VarDumper](https://symfony.com/doc/current/components/var_dumper.html)	PHP debugging tool that pretty-prints variables readable output	[2024-10-27 / 7.2.0](https://github.com/symfony/var-dumper/releases/tag/v7.2.0-BETA1)
