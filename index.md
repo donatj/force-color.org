@@ -53,7 +53,7 @@ Many software programs already use `--color` or `-c` to enable color output. Thi
 
 ### What is the precedence order for color settings?
 
-The `FORCE_COLOR` standard intentionally does not define a strict precedence order, allowing implementations to vary based on their specific needs. However, the example implementation demonstrates a recommended approach:
+The `FORCE_COLOR` standard deliberately does not define a strict precedence order, allowing implementations to vary based on their specific needs. However, the example implementation demonstrates a recommended approach:
 
 1. `NO_COLOR` environment variable (disables color)
 1. Command-line flags and configuration file settings
