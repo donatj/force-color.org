@@ -2,7 +2,7 @@ Software	Description	Date / Version Supported
 [node](https://nodejs.org/node)	JavaScript runtime	
 [Deno](https://deno.com/)	"JavaScript, TypeScript, and WebAssembly runtime"	[2025-03-14 / 2.2.4](https://github.com/denoland/deno/releases/tag/v2.2.4)
 [Python](https://www.python.org/)	Python programming language	[2024-10-07 / 3.13](https://docs.python.org/3.13/whatsnew/3.13.html#improved-error-messages)
-[SaC](https://sac-home.org/)	Functinal array programming language with C like syntax	[2025-11-19](https://gitlab.sac-home.org/sac-group/sac2c/-/commit/5478e5dd9939c44855b01e5875878c6d9416964f)
+[SaC](https://sac-home.org/)	Functional array programming language with C like syntax	[2025-11-19](https://gitlab.sac-home.org/sac-group/sac2c/-/commit/5478e5dd9939c44855b01e5875878c6d9416964f)
 [NVIDIA Legate](https://docs.nvidia.com/legate/)	NVIDIA's scalable array computing framework	[2025-03-17 / 25.03](https://docs.nvidia.com/legate/25.03/changes/2503.html)
 [jest](https://jestjs.io/jest)	JavaScript testing framework	
 [Julia](https://julialang.org/)	Julia programming language	[2025-10-08 / 1.12.0](https://github.com/JuliaLang/julia/blob/v1.12.0/NEWS.md)
