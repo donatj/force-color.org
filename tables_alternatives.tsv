@@ -1,0 +1,2 @@
+Software	Alternative
+[pre-commit](https://pre-commit.com/)	`pre-commit --color=never` or `export PRE_COMMIT_COLOR=never` ([Docs](https://pre-commit.com/#command-line-interface), [Rejected `FORCE_COLOR` Request](https://github.com/pre-commit/pre-commit/issues/2919#issuecomment-1620753032))

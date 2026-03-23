@@ -58,3 +58,7 @@ ${LIBRARIES}
 ## Software supporting `FORCE_COLOR` to force enable color support
 
 ${SOFTWARE}
+
+## Forcing colored output in software not supporting `FORCE_COLOR`
+
+${ALTERNATIVES}
