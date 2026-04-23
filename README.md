@@ -10,6 +10,8 @@ I would love any and all help the community could offer!
 
 ### Add a Library / Software
 
+Before submitting a package, please review the [subission guidelines](https://github.com/donatj/force-color.org/wiki/Submission-Guidelines).
+
 Just edit the corresponding TSV and submit a Pull Request. 
 
 The tables on the website are generated based on the TSV files.
