@@ -13,4 +13,5 @@ Software	Description	Date / Version Supported
 [turbo](https://github.com/vercel/turbo)	Toolchain for frontend development in Rust	[2022-04-07 / v1.2.0](https://github.com/vercel/turbo/releases/tag/v1.2.0)
 [uv](https://docs.astral.sh/uv)	Python package and project manager	[2024-06-06 / 0.2.7](https://github.com/astral-sh/uv/releases/tag/0.2.7)
 [Symfony VarDumper](https://symfony.com/doc/current/components/var_dumper.html)	PHP debugging tool that pretty-prints variables readable output	[2024-10-27 / 7.2.0](https://github.com/symfony/var-dumper/releases/tag/v7.2.0-BETA1)
-[rgbds](https://rgbds.gbdev.io/)	Free assembler/linker package for the Game Boy and Game Boy Color	[2025-10-31 v1.0.0](https://github.com/gbdev/rgbds/releases/tag/v1.0.0)
+[rgbds](https://rgbds.gbdev.io/)	Free assembler/linker package for the Game Boy and Game Boy Color	[2025-10-31 / v1.0.0](https://github.com/gbdev/rgbds/releases/tag/v1.0.0)
+[Mago](https://mago.carthage.software/)	PHP linter, formatter, and static analyzer, written in Rust	[2026-02-06 / 1.6.0](https://github.com/carthage-software/mago/releases/tag/1.6.0)
