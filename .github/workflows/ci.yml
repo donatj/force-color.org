@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Use Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 20.x
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Verify style.css exists and is non-empty
+        run: |
+          test -s public/style.css || (echo "public/style.css is missing or empty" && exit 1)
+      - name: Verify index.html exists and contains HTML landmarks
+        run: |
+          test -f public/index.html || (echo "public/index.html is missing" && exit 1)
+          grep -q '<html' public/index.html || (echo "Missing <html> tag" && exit 1)
+          grep -q '<head' public/index.html || (echo "Missing <head> tag" && exit 1)
+          grep -q '<body' public/index.html || (echo "Missing <body> tag" && exit 1)
+          grep -q '<main' public/index.html || (echo "Missing <main> tag" && exit 1)
+      - name: Verify index.html contains expected content
+        run: |
+          grep -q 'FORCE_COLOR' public/index.html || (echo "Missing FORCE_COLOR content" && exit 1)
