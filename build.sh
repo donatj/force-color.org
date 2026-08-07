@@ -11,6 +11,9 @@ export LIBRARIES
 SOFTWARE=$(npx csv-to-markdown-table --headers < tables_software.tsv)
 export SOFTWARE
 
+ALTERNATIVES=$(npx csv-to-markdown-table --headers < tables_alternatives.tsv)
+export ALTERNATIVES
+
 CONTENT="$(envsubst < index.md | npx marked --gif)"
 export CONTENT
 
