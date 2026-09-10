@@ -5,7 +5,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "csv-to-markdown-table": "^1.6.3",
+    "csv-to-markdown-table": "^2.0.0",
     "marked": "^18.0.7",
     "sass": "^1.102.0"
   }
