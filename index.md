@@ -51,6 +51,18 @@ Other examples include CI environments which may disable color output by default
 
 Many software programs already use `--color` or `-c` to enable color output. This is a great option to have, but it's not always possible to use. For example, if you're internally piping output to another program, you can't externally use `--color` or `-c` to enable color output. In these cases, you can use `FORCE_COLOR` to force enable color output.
 
+### What is the precedence order for color settings?
+
+The `FORCE_COLOR` standard deliberately does not define a strict precedence order, allowing implementations to vary based on their specific needs. However, the example implementation demonstrates a recommended approach:
+
+1. `NO_COLOR` environment variable (disables color)
+1. Command-line flags and configuration file settings
+1. `FORCE_COLOR` environment variable (enables color, highest priority)
+
+This ordering ensures that `FORCE_COLOR` has the final say, while still allowing command-line flags to override defaults and config files. It should also be compatible with the `NO_COLOR` standard.
+
+Individual programs may choose different precedence orders based on their requirements.
+
 ## Color libraries supporting `FORCE_COLOR` to force enable color support
 
 ${LIBRARIES}
