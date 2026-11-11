@@ -31,7 +31,7 @@ The project uses Node.js 24. Building the site also requires npm, `make`, and `e
 
 ```sh
 npm ci
-make
+make all
 ```
 
 The generated site is written to `public/`.
