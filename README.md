@@ -18,8 +18,8 @@ See [force-color.org](https://force-color.org/) for the full standard, an exampl
 
 To add software or a library, first read the [submission guidelines](https://github.com/donatj/force-color.org/wiki/Submission-Guidelines). Then edit the appropriate table and open a pull request:
 
-- [Software](tables_software.tsv)
-- [Libraries](tables_libraries.tsv)
+- https://github.com/donatj/force-color.org/blob/dev/tables_software.tsv
+- https://github.com/donatj/force-color.org/blob/dev/tables_libraries.tsv
 
 The website generates its tables from these tab-separated files. Contributions to the standard and website are also welcome.
 
