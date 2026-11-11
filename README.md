@@ -1,4 +1,4 @@
-# FORCE_COLOR
+# `FORCE_COLOR` ( force-color.org )
 
 `FORCE_COLOR` is a standard for enabling colored output in command-line tools. It provides a consistent way to keep color when output is piped or captured.
 
