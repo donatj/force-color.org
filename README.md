@@ -1,20 +1,39 @@
-# force-color.org
+# `FORCE_COLOR` ( force-color.org )
 
-For information about the `FORCE_COLOR`  standard, see [force-color.org](https://force-color.org).
+`FORCE_COLOR` is a standard for enabling colored output in command-line tools. It provides a consistent way to keep color when output is piped or captured.
 
-## Help me out!
+## Usage
 
-I created this really quickly because I felt there needed to be a standard.
+Set `FORCE_COLOR=1` to request color from software that supports it:
 
-I would love any and all help the community could offer!
+```sh
+FORCE_COLOR=1 your-command | less -R
+```
 
-### Add a Library / Software
+## The standard
 
-Before submitting a package, please review the [subission guidelines](https://github.com/donatj/force-color.org/wiki/Submission-Guidelines).
+See [force-color.org](https://force-color.org/) for the full standard, an example implementation, and lists of supporting software and libraries.
 
-Just edit the corresponding TSV and submit a Pull Request. 
+## Contributing
 
-The tables on the website are generated based on the TSV files.
+To add software or a library, first read the [submission guidelines](https://github.com/donatj/force-color.org/wiki/Submission-Guidelines). Then edit the appropriate table and open a pull request:
 
-- https://github.com/donatj/force-color.org/blob/dev/tables_libraries.tsv
 - https://github.com/donatj/force-color.org/blob/dev/tables_software.tsv
+- https://github.com/donatj/force-color.org/blob/dev/tables_libraries.tsv
+
+The website generates its tables from these tab-separated files. Contributions to the standard and website are also welcome.
+
+## Local development
+
+The project uses Node.js 24. Building the site also requires npm, `make`, and `envsubst`.
+
+```sh
+npm ci
+make all
+```
+
+The generated site is written to `public/`.
+
+## License
+
+[MIT](LICENSE.md)
