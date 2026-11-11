@@ -12,8 +12,6 @@ FORCE_COLOR=1 your-command | less -R
 
 ## The standard
 
-Command-line software that produces colored output should enable color when `FORCE_COLOR` is present and not empty. The value does not matter.
-
 See [force-color.org](https://force-color.org/) for the full standard, an example implementation, and lists of supporting software and libraries.
 
 ## Contributing
