@@ -5,6 +5,7 @@ Library	Description	Date / Version Supported
 [supports-color](https://github.com/zkat/supports-color)	Rust library to detect terminal color support	[2021-09-11 / 1.0.0](https://github.com/zkat/supports-color/releases/tag/v1.0.0)
 [colorette](https://www.npmjs.com/package/colorette)	JavaScript library to color text	[2018-07-13 / 1.0.0](https://github.com/jorgebucaran/colorette/releases/tag/1.0.0)
 [picocolors](https://github.com/alexeyraspopov/picocolors)	JavaScript library for terminal colors	[2024-10-16 / 1.1.1](https://github.com/alexeyraspopov/picocolors/releases/tag/v1.1.1)
+[Loguru](https://github.com/Delgan/loguru)	Python logging library	[2026-11-11 / 0.8.0](https://github.com/Delgan/loguru/releases/tag/0.8.0)
 [rich](https://github.com/Textualize/rich)	Python library to display rich text	[2022-10-02 / 12.6.0](https://github.com/Textualize/rich/releases/tag/v12.6.0)
 [termcolor](https://github.com/termcolor/termcolor)	Python library for ANSI color formatting in the terminal	[2022-10-30 / 2.1.0](https://github.com/termcolor/termcolor/releases/tag/2.1.0)
 [gookit/color](https://github.com/gookit/color)	Go library for rendering colored text	[2021-04-07 / 1.4.1](https://github.com/gookit/color/releases/tag/v1.4.1)
